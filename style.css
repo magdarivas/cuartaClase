@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #E4A1DF;
+  color: #4C0529; 
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+a{ 
+  color: pink;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blueviolet;
+  text-decoration: underline;
+  transition: all ease 2s;
+}
+
+a:hover:after{ 
+  content:" -‧°𐐪♡𐑂°‧-";
+}
+
+#bloque {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(80% - 4rem); /*78%*/
+    padding: 2rem; /*1%*//* Hace que el ancho real cambie al hacerle un margen, dejándolo con 2% más */
+    margin: auto; /* Para no calcularlo, que esto se encargue solo */
+    background: rgba(255, 255, 255, 0.6); /* Último número es el la proporción de opacidad */
+    border-radius: 1rem;
+    box-shadow: 0 0 30px white;
+    z-index: 9999;
+}
+
+h1,h2, span.pixel{
+  font-family: "Pixelify Sans", sans-serif;
+  font-style: normal;
+}
+
+span.pixel{
+  color: #f00;
+  font-size: 80%;
+}
+
+h1{ 
+  font-size: calc(2rem + 5vw); 
+}
+
+h2{
+  font-size: calc(1rem + 2vw);
+}
